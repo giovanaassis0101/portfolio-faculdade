@@ -1,0 +1,109 @@
+body {
+    background: #f5ecd7;
+    color: #4e3b23;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+nav {
+    background: #e0c9a6;
+    padding: 18px 0 12px 0;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    border-radius: 0 0 18px 18px;
+    box-shadow: 0 2px 8px rgba(78, 59, 35, 0.07);
+}
+
+nav a {
+    color: #6b4f27;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 8px 18px;
+    border-radius: 12px;
+    transition: background 0.2s, color 0.2s;
+}
+
+nav a:hover, nav a:focus {
+    background: #d1b892;
+    color: #3b2a16;
+}
+
+section {
+    background: #fffaf3;
+    margin: 32px auto;
+    padding: 32px 24px;
+    max-width: 600px;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(78, 59, 35, 0.08);
+}
+
+h1, h2 {
+    color: #7a5c2e;
+    border-bottom: 2px solid #e0c9a6;
+    padding-bottom: 8px;
+    border-radius: 0 0 8px 8px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #e0c9a6;
+    border-radius: 10px;
+    background: #f8f3ea;
+    font-size: 1rem;
+    color: #4e3b23;
+    box-sizing: border-box;
+    transition: border 0.2s;
+}
+
+input:focus, textarea:focus {
+    border: 1.5px solid #bfa06a;
+    outline: none;
+}
+
+input[type="submit"] {
+    background: #bfa06a;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background 0.2s;
+}
+
+input[type="submit"]:hover {
+    background: #a4844a;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.voltar-inicio {
+    display: block;
+    margin: 0 auto 24px auto;
+    width: fit-content;
+    background: #e0c9a6;
+    color: #6b4f27;
+    text-decoration: none;
+    padding: 8px 18px;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 500;
+    box-shadow: 0 2px 8px rgba(78, 59, 35, 0.07);
+    transition: background 0.2s, color 0.2s;
+}
+
+.voltar-inicio:hover, .voltar-inicio:focus {
+    background: #d1b892;
+    color: #3b2a16;
+} 
